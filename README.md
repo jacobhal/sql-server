@@ -13,5 +13,10 @@ where **Mytable** is a table that holds foreign key and **Othertable** is the pr
 
 Stores procedures should always be prefixed with "sp_" and executed with a prefix of "sys.", i.e. sys.sp_exampleSp.
 Stored procedures are found in the Tables -> Programmability -> Stored Procedures folder.
+
+## Task Scheduler
+
+Here is where you would place Batch jobs that you want to run on a recurring basis.
+
 ## SQL Profiler
 Useful for seeing the SQL traffic locally!
